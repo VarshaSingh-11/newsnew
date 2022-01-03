@@ -76,7 +76,7 @@
     <a href=" " class="c-news">
         <div class="c-news__title">
             <div class="product-img">
-                <img src="image\sandesh.png" width="90" height="80">
+                <img src="image\sandesh.png" width="75" height="90" id="sandesh">
                 
             </div>
             <h3>
@@ -96,7 +96,7 @@
     <a href=" " class="c-news c-news--last">
         <div class="c-news__title">
             <div class="product-img">
-                <img src="image\vishwas-removebg-preview.png" width="90" height="140" id="vishwas">
+                <img src="image\vishwas-removebg-preview.png" width="90" height="150" id="vishwas">
                 
             </div>
             <h3>
@@ -104,7 +104,7 @@
             </h3>
         </div>
         <div class="c-news__meta">
-            <span data-aos="slide-in" class="c-news__date" data-text="21.06.2021">21.06.2021</span>
+            <span data-aos="slide-in" class="c-news__date" >21.06.2021</span>
            
         </div>
     </a>
@@ -114,6 +114,18 @@
 <div class="l-main__section--news-link">
     <a href="/en/news/" class="">See more news</a>
 </div>
-</section>
+
+
+</section><script type="text/javascript" src="js/vanilla-tilt.js"></script>
+
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".c-news"), {
+		max: 25,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	
+</script>
 </body>
 </html>
